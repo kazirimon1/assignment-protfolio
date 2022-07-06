@@ -1,0 +1,47 @@
+body{
+    font-family: 'Finlandica', sans-serif;
+}
+.division{
+    background-image: url(donate-today-main/images/donation5.jpg);
+    color: rgb(236, 12, 12);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.head{
+    font-size: 200px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.paragraph{
+    font-size: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.click-me{
+    font-size: 100px;
+}
+.donate{
+    text-align: center;
+    font-size: 100px;
+}
+.todays-donate{
+    font-size: 50px;
+    text-align: center;
+}
+.donation{
+    display: flex;
+    font-size: 100px;
+    text-align: center;
+}
+.item{
+    box-shadow: 7px solid orangered;
+    
+}
+.amount{
+    text-align: center;
+    text-underline-position: above;
+}
