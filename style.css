@@ -1,13 +1,15 @@
 body{
     font-family: 'Finlandica', sans-serif;
 }
+.classic{
+    text-align: center;
+}
 .division{
     background-image: url(donate-today-main/images/donation5.jpg);
     color: rgb(236, 12, 12);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .head{
     font-size: 200px;
@@ -41,7 +43,31 @@ body{
     box-shadow: 7px solid orangered;
     
 }
-.amount{
-    text-align: center;
-    text-underline-position: above;
+.element{
+    text-underline-position: under;
 }
+.header{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 10px;  
+}
+.family{
+    font-size: 50px;
+}
+.flexible-container{
+    display: flex;
+}
+.plan{
+    text-align: center;
+    font-size: 50px;
+}
+,span{
+    color: brown;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px greenyellow;
+}
+
