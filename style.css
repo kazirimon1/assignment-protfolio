@@ -25,6 +25,10 @@ body{
 }
 .click-me{
     font-size: 100px;
+    background-image: linear-gradient(orange,red);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 20px;
 }
 .donate{
     text-align: center;
@@ -37,7 +41,12 @@ body{
 .donation{
     display: flex;
     font-size: 100px;
+}
+.mind-it{
+    display: flex;
     text-align: center;
+    box-shadow: 10px 10px 10px 10px 10px 30px solid yellow;
+    margin-right: 50%;
 }
 .item{
     box-shadow: 7px solid orangered;
@@ -52,6 +61,10 @@ body{
     padding: 10px 40px;
     border-radius: 10px;  
 }
+.heading{
+    text-align: center;
+    font-size: 100px;
+}
 .family{
     font-size: 50px;
 }
@@ -62,12 +75,36 @@ body{
     text-align: center;
     font-size: 50px;
 }
-,span{
-    color: brown;
-}
 .half-width{
     width: 50%;
     padding-left: 5%;
     box-shadow: 10px 10px 40px greenyellow;
 }
-
+.your-donation{
+    font-size: 70px;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.film{
+    box-shadow: 10px 10px 40px yellow;
+}
+.display{
+    display: flex;
+}
+.contribute{
+    background-image: linear-gradient(green,red);
+    color: azure;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+}
+.sylhet{
+    font-size: 50px;
+    text-align: center;
+}
